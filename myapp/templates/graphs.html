@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Data Graphs</title>
+    <link rel="stylesheet" href="{% static 'style/graphs.css' %}">
+</head>
+<body>
+    <header>
+        <h2>Weather Data Visualization</h2>
+    </header>
+        <div class="graph">
+            <h3>Rainfall vs Temperature</h3>
+            <img src="data:image/png;base64,{{ graphs.rain_temp }}" alt="Rain vs Temp Graph">
+        </div>
+
+        <div class="graph">
+            <h3>Average Monthly Rainfall</h3>
+            <img src="data:image/png;base64,{{ graphs.monthly_rain }}" alt="Monthly Rain Graph">
+        </div>
+
+        <div class="graph">
+            <h3>Yearly Average Temperature</h3>
+            <img src="data:image/png;base64,{{ graphs.yearly_temp }}" alt="Yearly Temp Graph">
+        </div>
+        <a href="{% url 'visualization' %}"><button>Upload Another Dataset</button></a>
+</body>
+</html>

@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000E28;
+    text-align: center;
+    align-items: center;
+    max-width: 100%;
+    width: 100%;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    max-width: 100%;
+    width: 100%;
+    background-image: url('../image/bg.jpeg');
+    background-position: center;
+    background-size: cover;
+    color: white;
+    padding: 20px 0;
+  }
+
+.graph img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    padding: 5px;
+    background: #fff;
+    margin-top: 10px;
+}
+
+button{
+  background-color: #28a745;
+  width: 98%;
+  color: white;
+  border: black;
+  border-style: solid;
+  padding: 12px 15px;
+  border-radius: 5px;
+  margin: 20px 0;
+  font-weight: bolder;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }

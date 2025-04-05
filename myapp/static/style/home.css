@@ -1,0 +1,119 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #000E28;
+  text-align: center;
+}
+
+header {
+  max-width: 100%;
+  width: 100%;
+  background-image: url('../image/bg.jpeg');
+  background-position: center;
+  background-size: cover;
+  color: white;
+  padding: 20px 0;
+}
+
+.iland{
+  max-width: 96%;
+  width: 96%;
+  margin: 0 1%;
+  padding: 1%;
+  background: #233A55;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.menu {
+  max-width: 98%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  column-gap:2%;
+  row-gap: 3%;
+  width: 96%;
+  margin: 1% 1%;
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 150px;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration:none;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
+
+.menu-item:hover {
+  transform: scale(1.05);
+}
+
+/* Background images */
+.analysis {
+  background-image: url('../image/analysis.jpeg');
+  min-width: 200px;
+  min-height: 142px;
+  background-size: cover;
+  opacity: 1;
+}
+.visualization {
+  background-image: url('../image/visualization.jpeg'); 
+  min-width: 200px;
+  min-height: 142px;
+  background-size: cover;
+}
+.prediction {
+  background-image: url('../image/prediction.jpeg'), linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  min-width: 200px;
+  min-height: 142px;
+  background-size: cover;
+}
+
+.update {
+  background-image: url('../image/update.jpeg');
+  min-width: 200px;
+  min-height: 142px;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.2); /* Dark background with 50% opacity */
+}
+
+.menu-item span{
+  text-shadow: 2px 2px 4px black;
+  z-index: 2;
+}
+
+/* Add dark overlay to reduce opacity */
+.visualiza::before {
+  content: '';
+  background: inherit; /* Use the same background as the parent */
+  min-width: 200px;
+  min-height: 142px;
+  opacity: 0.5; /* Reduce opacity */
+  z-index: 1; /* Overlay behind text */
+  border-radius: 10px; /* Match border-radius of the item */
+}
+
+.description {
+  max-width: 92%;
+  width: 92%;
+  margin: 5% 2%;
+  padding: 2%;
+  background: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}

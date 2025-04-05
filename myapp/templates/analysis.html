@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Analysis</title>
+    <link rel="stylesheet" href="{% static 'style/visualization.css' %}">
+</head>
+<body>
+    <header>
+        <h1>Weather Analysis</h1>
+        <p>Upload your dataset to analyze rainfall and temperature trends.</p>
+    </header>
+
+    <div class="container">
+        <form action="{% url 'process_weather_analysis' %}" method="POST" enctype="multipart/form-data">
+            {% csrf_token %}
+            <div><label for="dataset">Select Dataset:</label></div>
+            <div><input type="file" name="dataset" id="dataset" accept=".csv, .xlsx, .xls" required></div>
+            <div><button type="submit">Upload & Analyze</button></div>
+        </form>
+    </div>
+    {% if error %}
+    <div class="error"><p>{{ error }}</p></div>
+    {% endif %}
+    <footer>
+        <p>&copy; 2025 | Weather Prediction & Analysis Web App</p>
+    </footer>
+</body>
+</html>

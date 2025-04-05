@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Analysis Results</title>
+</head>
+<body>
+    <h1>Weather Analysis Results</h1>
+    
+    <h2>Trends and Insights</h2>
+    <p><strong>Overall analysis of rainfall and temperature patterns.</strong></p>
+    
+    <h3>Seasonal High/Low Temperatures</h3>
+    <p>{{ temp_seasonal_analysis }}</p>
+
+    <h3>Seasonal High/Low Rainfall</h3>
+    <p>{{ rain_seasonal_analysis }}</p>
+
+    <h3>Linear Regression Prediction Results</h3>
+    <p>{{ regression_analysis }}</p>
+
+    <h3>Yearly Trends</h3>
+    <p>{{ yearly_trends }}</p>
+
+    <h3>Month vs. Temperature / Rain</h3>
+    <p>{{ month_vs_temp_rain }}</p>
+</body>
+</html>

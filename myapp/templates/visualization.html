@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Data Upload</title>
+    <link rel="stylesheet" href="{% static 'style/visualization.css' %}">
+</head>
+<body>
+    <header>
+        <h1>Weather Visualization</h1>
+        <p>Visualize weather Trends</p>
+    </header>
+    <div class="container">
+        <h2>Upload Weather Dataset</h2>
+        <form action="{% url 'visualization' %}" method="POST" enctype="multipart/form-data">
+            {% csrf_token %}
+            <div><label for="dataset">Select Dataset (CSV/XLSX):</label></div>
+            <div><input type="file" name="dataset" id="dataset" required></div>
+            <button type="submit">Upload & View Graphs</button>
+        </form>
+    </div>
+    {% if error %}
+    <div class="error">
+    <p>{{ error }}</p>
+    </div>
+    {% endif %}
+    <footer>
+        <p>&copy; 2025 | Weather Prediction & Analysis Web App</p>
+    </footer>
+</body>
+</html>
