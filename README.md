@@ -72,7 +72,7 @@ http://127.0.0.1:8000/
 ```
 
 ## Project Structure
-weather-prediction-app
+Weather Prediction and Analysis Web App
 ```
 ├── myapp/
 │   ├── migrations/
