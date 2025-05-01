@@ -32,10 +32,10 @@ The project was developed as part of the **Data Science with Python** course and
   - **Seasonal variations in rainfall and temperature.**
 
 ## Screenshots
-<img src="https://github.com/rasel-ml/EDGE-DataScience-Project/blob/main/myapp/static/image/home.png" alt="Homepage SS" width="24%"></img>
-<img src="https://github.com/rasel-ml/EDGE-DataScience-Project/blob/main/myapp/static/image/prediction.png" alt="Prediction SS" width="24%"></img>
-<img src="https://github.com/rasel-ml/EDGE-DataScience-Project/blob/main/myapp/static/image/Visualization.png" alt="Visualization SS" width="24%"></img>
-<img src="https://github.com/rasel-ml/EDGE-DataScience-Project/blob/main/myapp/static/image/Analysis.png" alt="Analysis SS" width="24%"></img>
+<img src="https://github.com/rasel-ml/EDGE-DataScience-Project/blob/main/Screenshots/Home_ss.png" alt="Homepage SS" width="24%"></img>
+<img src="https://github.com/rasel-ml/EDGE-DataScience-Project/blob/main/Screenshots/Prediction_ss.png" alt="Prediction SS" width="24%"></img>
+<img src="https://github.com/rasel-ml/EDGE-DataScience-Project/blob/main/Screenshots/Visualization_ss.png" alt="Visualization SS" width="24%"></img>
+<img src="https://github.com/rasel-ml/EDGE-DataScience-Project/blob/main/Screenshots/Analysis_ss.png" alt="Analysis SS" width="24%"></img>
 
 ## Technologies Used
 ### Programming Languages & Frameworks
@@ -84,18 +84,14 @@ Weather Prediction and Analysis Web App
 │   ├── migrations/
 │   │   └── __init__.py
 │   ├── static/
-│   │   ├── dataset
+│   │   ├── dataset/
 │   │   │   └── Weather_data.csv
 │   │   ├── image/
 │   │   │   ├── analysis.jpeg
-│   │   │   ├── analysis.png
 │   │   │   ├── bg.jpeg
-│   │   │   ├── home.png
 │   │   │   ├── prediction.jpeg
-│   │   │   ├── prediction.png
 │   │   │   ├── update.jpeg
 │   │   │   └── visualization.jpeg
-│   │   │   └── visualization.png
 │   │   ├── model/
 │   │   │   ├── rain_model.joblib
 │   │   │   └── temp_model.joblib
@@ -131,6 +127,11 @@ Weather Prediction and Analysis Web App
 │   └── wsgi.py
 ├── Project Report/
 │   └── Data Science Project Report on Weather Prediction and Analysis.pdf
+├── Screenshots/
+│   ├── Analysis_ss.png
+│   ├── Home_ss.png
+│   ├── Prediction_ss.png
+│   └── Visualization_ss.png 
 │── uploads/
 │── db.sqlite3
 │── manage.py
