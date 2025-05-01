@@ -31,6 +31,9 @@ The project was developed as part of the **Data Science with Python** course and
   - **Temperature trends over the years.**
   - **Seasonal variations in rainfall and temperature.**
 
+## Screanshots
+<img href="https://github.com/rasel-ml/EDGE-DataScience-Project/myapp/static/image/home.png" alt="Home ss"></img>
+
 ## Technologies Used
 ### Programming Languages & Frameworks
 - **[Python](https://www.python.org/)** (Backend logic, Machine Learning, Data Processing)
