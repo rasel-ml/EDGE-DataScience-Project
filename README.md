@@ -32,7 +32,7 @@ The project was developed as part of the **Data Science with Python** course and
   - **Seasonal variations in rainfall and temperature.**
 
 ## Screanshots
-<img href="https://github.com/rasel-ml/EDGE-DataScience-Project/myapp/static/image/home.png" alt="Home ss"></img>
+<img href="https://github.com/rasel-ml/EDGE-DataScience-Project/blob/main/myapp/static/image/home.png" alt="Home ss"></img>
 
 ## Technologies Used
 ### Programming Languages & Frameworks
