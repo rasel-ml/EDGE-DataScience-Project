@@ -82,10 +82,14 @@ Weather Prediction and Analysis Web App
 │   │   │   └── Weather_data.csv
 │   │   ├── image/
 │   │   │   ├── analysis.jpeg
+│   │   │   ├── analysis.png
 │   │   │   ├── bg.jpeg
+│   │   │   ├── home.png
 │   │   │   ├── prediction.jpeg
+│   │   │   ├── prediction.png
 │   │   │   ├── update.jpeg
 │   │   │   └── visualization.jpeg
+│   │   │   └── visualization.png
 │   │   ├── model/
 │   │   │   ├── rain_model.joblib
 │   │   │   └── temp_model.joblib
