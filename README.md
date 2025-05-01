@@ -164,4 +164,4 @@ The dataset used for training and analysis was collected from **[Kaggle](https:/
 This project is open-source and available under the **[MIT License](https://opensource.org/license/mit)**.
 
 ## Author
-**[Md. Rasel Molla](https://www.linkedin.com/in/rasel-molla-9a6597347)**
+**[Md. Rasel Molla](https://github.com/rasel-ml)**
