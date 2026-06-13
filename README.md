@@ -156,6 +156,10 @@ Weather Prediction and Analysis Web App
 - Choose between **Rainfall Prediction** or **Temperature Prediction**.
 - Enter the required input values.
 - Click **Predict** to get results.
+``` Attention!!
+The prediction are inaccurate due to imature dataset.
+```
+
 
 ## Dataset
 The dataset used for training and analysis was collected from **[Kaggle](https://www.kaggle.com/datasets/yakinrubaiat/bangladesh-weather-dataset)**, containing historical weather data from **1901 to 2023**.
