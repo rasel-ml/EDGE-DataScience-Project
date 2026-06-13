@@ -161,7 +161,7 @@ Weather Prediction and Analysis Web App
 The dataset used for training and analysis was collected from **[Kaggle](https://www.kaggle.com/datasets/yakinrubaiat/bangladesh-weather-dataset)**, containing historical weather data from **1901 to 2023**.
 
 ## License
-This project is open-source and available under the **[MIT License](https://opensource.org/license/mit)**.
+This project is open-source and available under the **[MIT License](LICENSE)**.
 
 ## Author
 **[Md. Rasel Molla](https://github.com/rasel-ml)**
